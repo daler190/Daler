@@ -1,0 +1,123 @@
+@media (max-width: 1200px) {
+    .container {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .foot_elem a {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .nav {
+      display: none;
+    }
+  
+    .icons {
+      display: none;
+    }
+  
+    .cat_grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      padding-bottom: 50px;
+    }
+  
+    .foot_grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+    }
+  
+    input {
+      width: 500px;
+    }
+  
+    .new .bth {
+      padding: 17px 190px;
+    }
+  
+    .foot_grid hr {
+      display: flex;
+    }
+    
+    .yanki {
+      background: url(../img/Фон.png) no-repeat left / cover;
+      
+    }
+    
+  }
+  
+  @media (max-width: 567px) {
+    input {
+      width: 330px;
+    }
+  
+    .new .bth {
+      padding: 17px 105px;
+    }
+  
+    .promo h1 {
+      font-size: 39px;
+    }
+  
+    .foot_elem1 h3 {
+      border-bottom: 1px solid black;
+    }
+  
+    .foot_elem1 a {
+      display: none;
+    }
+  .icons img {
+      width: 25px;
+      padding-left: 5px;
+    }
+    .logo img {
+      width: 120px;
+    }
+    .foot_text img {
+      display: flex;
+    }
+    .bth img {
+      width: 30px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    input {
+      width: 300px;
+    }
+  
+    .new .bth {
+      padding: 17px 93px;
+    }
+  
+    .new h2 {
+      font-size: 23px;
+    }
+  
+    
+  
+    .logo img {
+      width: 100px;
+      margin-left: 20px;
+      margin-right: 10px;
+    }
+    .icons img {
+      width: 25px;
+      padding-left: 5px;
+    }
+  
+    
+  }
